@@ -1,0 +1,230 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fotn",
+				"font-family"
+			],
+			[
+				"fot",
+				"font-family"
+			],
+			[
+				"textd",
+				"text-decoration"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"creat",
+				"createDataV"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/Desktop/WebDesign/css/responsive.css",
+		"/C/Users/Administrator/Desktop/WebDesign/css/main.css",
+		"/C/Users/Administrator/Desktop/WebDesign/css/normalize.css",
+		"/C/Users/Administrator/Desktop/WebDesign/contact.html",
+		"/C/Users/Administrator/Desktop/WebDesign/about.html",
+		"/C/Users/Administrator/Desktop/WebDesign/index.html",
+		"/C/Users/Jarreo001/Desktop/Portfolio/Toplist/style.css",
+		"/C/Users/Jarreo001/stack.cpp",
+		"/C/Users/Jarreo001/PracticeQueue.cpp",
+		"/C/Users/Jarreo001/Desktop/Portfolio/Toplist/chart.cpp",
+		"/C/Users/Jarreo001/Desktop/Portfolio/Toplist/MyfirstCsProgram",
+		"/C/Users/Jarreo001/Documents/WebDev/Web1.html",
+		"/C/Users/Jarreo001/Documents/CPP/test.cpp",
+		"/C/Users/Jarreo001/Documents/CPP/Main.cpp",
+		"/C/Users/Jarreo001/Documents/CPP/Tesr2.cpp",
+		"/C/Users/Jarreo001/Documents/CPP/Help",
+		"/C/Users/Jarreo001/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jarreo001/AppData/Roaming/Sublime Text 3/Packages/User/C++.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 152.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
