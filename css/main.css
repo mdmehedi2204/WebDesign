@@ -64,10 +64,10 @@ SideBar
 ********************/
 .sidebar{ 
 	width: 160px;
-	height: 75%;
+	height: 100%;
 	background: #151718; 
-	padding-top: 200px; 
-	top: 70px;
+	padding-top: 250px; 
+	top: 50px;
 	left: -200px; 
 	position:absolute; 
 	z-index: -1; 
@@ -151,8 +151,8 @@ FOOTER
 footer{ 
 	font-size: 0.75em; 
 	text-align: center; 
-	clear: both; /*sets foote*/ 
-	padding-top 50px; 
+	clear: both; /*sets footer*/ 
+	padding-top: 50px; 
 	color: #333;
 	border-color: #3b7c77; 
 }
@@ -164,8 +164,15 @@ footer{
 	padding: 10px 0;
 	margin: 0 5px; 
 }
+
+/********************
+Page: Games
+********************/ 
+#Games li{ 
+	list-style: none;
 	
 
+ }
 /********************
 Page: Gallery
 ********************/
@@ -176,7 +183,6 @@ Page: Gallery
 	position: relative;
 
 }
-
 #Gallery li{ 
 	float: left; 
 	width: 45%; 
@@ -184,7 +190,6 @@ Page: Gallery
 	background-color: #f5f5f5; 
 	color: #bdc3c7;
 }
-
 #Gallery li a p{ 
 	margin: 0; 
 	padding: 5%; 

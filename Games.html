@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	
+
+		<meta charset="utf-8">
+		<title>Jarrell Walker | Designer</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="./css/main.css">
+		<link rel="stylesheet" href="./css/responsive.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+	<header>
+		<a href="index.html" id= "logo">
+			<h1>Jarrell H. Walker</h1>
+			<h2>Designer|Developer|Composer</h2>
+		</a>
+		<nav>
+			<ul>
+				<li><a href="index.html" class="selected">Portfolio</a> </li>
+				<li><a href="about.html">About</a> </li>
+				<li><a href="contact.html"> Contact </a> </li>
+			</ul>
+		</nav>
+	</header>
+	<div id="Games">
+		<ul>
+			<li>
+				<a href="">
+					<img src="img/Project_team_Wumpus2.jpg" alt="Wumpus Garden">
+				</a>
+			</li>
+			<li>
+				<a href="">
+					<img src="img/dicefightslider.png" alt="Dice Fight">
+				</a>
+			</li>
+			<li>
+				<a href="">
+				<img src="img/SpaceE.jpg" alt="Dark-Matter Game">
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="sidebar">
+		<ul>
+			<li><a href="#">Courses Taken</a></li>
+			<li><a href="#">Side Projects</a></li>
+			<li><a href="#">Listen</a></li>
+			<li><a href="#">Finsihed</a></li>
+			<li><a href="#">Basic</a></li>
+			<li><a href="#">fdfdfd</a></li>
+		</ul>
+		</div>
+	<div class="sidebar-btn" onclick="show(sidebar)"> 
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+		<footer>
+			<p>&copy; 2016 J.H.Walker</p>
+		</footer>
+	</div>
+	<script >
+	var sidebarIsVisable = false; 
+	$(".sidebar-btn").click(function(event){ 
+			event.preventDefault(); 
+			sidebarIsVisable = !sidebarIsVisable; 
+			if(sidebarIsVisable){ 
+				$("#Games").animate({left:"25px"}, 400);
+				$(".sidebar").animate({left:0}, 400);
+				
+				}else{ 
+					$("#Games").animate({left:0}, 400); 
+					$(".sidebar").animate({left:"-200px"}, 400);
+					$(".sidebar-btn").animate({left:"200px"}, 400);
+				
+			}
+	}); 	
+
+	</script>
+
+
+	</body>
+</html>

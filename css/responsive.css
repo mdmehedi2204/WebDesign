@@ -1,7 +1,18 @@
 /***********************************
 	TABLET RESPONSIVE DESIGN
 ***********************************/
+@media screen and (max-width: 240px){ 
+#Games li{ 
+	max-width: 20.65%; 
+	max-height: 10px; 
+	padding-left:20px;
 
+ }
+#Games li:nth-child(1n){ 
+	clear: left; 
+ }
+
+ }
 
 
 @media screen and (min-width: 480px){
@@ -80,5 +91,25 @@
 		border-bottom: 5px solid #599a67; 
 		margin-bottom: 60px; 
 	}
+	#Games{ 
+	margin:	0px;
+	padding: 0px 200px 0px 0px;
+	list-style: none; 
+	position: relative;
+	}
+#Games li { 
+	float: right;
+	max-width: 700px; 
+	height: 120px; 
+	margin: 5%; 
+	background-color: white;
+	padding: 5%; 
+	 
+	list-style: none; 
+	
+ }
+ #Games img{ 
+ 	border-radius: 10%; 
+  }
 
 }
