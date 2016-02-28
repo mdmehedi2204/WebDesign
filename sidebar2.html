@@ -1,0 +1,60 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<style>
+
+	body{ 
+		margin: 0;
+		position: relative;
+	 }
+
+		.sidebar{ 
+		width: 200px; 
+		background-color: black
+		color: white;
+		position: absolute;
+		left: -200px;
+		top: 0;
+		 }
+
+		 .button{ 
+		 	width: 40px; 
+		 	height: 40px; 
+		 	position: absolute;
+		 	left: 10px;
+		 	top:10;
+		 	background-color: red; 
+		  }
+	</style>
+</head>
+<body>
+	<div class="main">
+	<div class="button"></div>
+				
+	</div>
+	<div class="sidebar">
+		<ul>
+			<li>dsfs</li>
+			<li>fsafas</li>
+			<li>fasfsfs</li>
+		</ul>
+		
+	</div>
+	<script >
+	var sidebarIsVisable = false; 
+	$(".button").click(function(event){ 
+			event.preventDefault(); 
+			sidebarIsVisable = !sidebarIsVisable; 
+			if(sidebarIsVisable){ 
+				$("body").animate({left:"200px"}, 400); 
+				}else{ 
+					$("body").animate({left:0}, 400); 
+				
+			}
+	}); 	
+
+	</script>
+</body>
+</html>

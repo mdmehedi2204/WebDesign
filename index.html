@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript">
+			var a = true;
+			
+			
+				function show(sidebar)
+				{
+					if(a==true){
+						Sidebar.style.left = "0px";
+						Sidebar.style.transition  = "left 0.6s linear";
+						a=false;
+				}
+					else{
+							Sidebar.style.left = "-200px";
+							Sidebar.style.transition  = "left 0.6s linear";
+							a=true;
+						}
+				}
+		</script>
+
 		<meta charset="utf-8">
 		<title>Jarrell Walker | Designer</title>
 		<link rel="stylesheet" href="css/normalize.css">
 		<link href='https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="./css/main.css">
-		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="./css/responsive.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		
 	</head>
 	<body>
 	<header>
@@ -25,9 +43,22 @@
 			</ul>
 		</nav>
 	</header>
-	<div id="Box">
-		<p>This is a test</p>
+	<div class="sidebar">
+		<ul>
+			<li><a href="#">Histoy</a></li>
+			<li><a href="#">Lessons</a></li>
+			<li><a href="#">Basic</a></li>
+			<li><a href="#">Finsihed</a></li>
+			<li><a href="#">Basic</a></li>
+			<li><a href="#">Finsihed</a></li>
+		</ul>
+		</div>
+	<div class="sidebar-btn" onclick="show(sidebar)"> 
+		<span></span>
+		<span></span>
+		<span></span>
 	</div>
+
 	<div id= "wrapper"> 
 		<section>
 			<ul id="Gallery">
@@ -92,5 +123,25 @@
 			<p>&copy; 2016 J.H.Walker</p>
 		</footer>
 	</div>
+	<script >
+	var sidebarIsVisable = false; 
+	$(".sidebar-btn").click(function(event){ 
+			event.preventDefault(); 
+			sidebarIsVisable = !sidebarIsVisable; 
+			if(sidebarIsVisable){ 
+				$("#Gallery").animate({left:"200px"}, 400);
+				$(".sidebar").animate({left:0}, 400);
+				
+				}else{ 
+					$("#Gallery").animate({left:0}, 400); 
+					$(".sidebar").animate({left:"-200px"}, 400);
+					$(".sidebar-btn").animate({left:"200px"}, 400);
+				
+			}
+	}); 	
+
+	</script>
+
+
 	</body>
 </html>
